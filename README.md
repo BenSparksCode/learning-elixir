@@ -1,2 +1,3 @@
-# learning-elixir
- A place to learn Elixir
+# Learning Elixir
+
+A place to keep code while I learn Elixir.
