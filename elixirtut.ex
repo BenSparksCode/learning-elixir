@@ -4,7 +4,7 @@ defmodule M do
   end
 
   def main do
-    data_stuff()
+    string_stuff()
   end
 
   def user_input do
@@ -25,5 +25,11 @@ defmodule M do
     # IO.puts "Range #{is_range(one_to_ten)}"
   end
 
+  def string_stuff do
+    my_str = "My sentence"
+    IO.puts "Length : #{String.length(my_str)}"
+    long_str = my_str <> " " <> "is longer"
+    IO.puts "Equal : #{"Egg" === "egg"}"
+  end
 
 end
