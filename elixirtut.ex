@@ -4,7 +4,7 @@ defmodule M do
   end
 
   def main do
-    string_stuff()
+    math_stuff()
   end
 
   def user_input do
@@ -38,6 +38,13 @@ defmodule M do
     IO.puts String.downcase(long_str)
 
     4*10 |> IO.puts
+  end
+
+  def math_stuff do
+    #floor division
+    IO.puts "5 div 4 = #{div(6,4)}"
+    #remainder (mod)
+    IO.puts "5 rem 4 = #{rem(6,4)}"
   end
 
 end
