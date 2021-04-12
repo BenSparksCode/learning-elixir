@@ -30,6 +30,14 @@ defmodule M do
     IO.puts "Length : #{String.length(my_str)}"
     long_str = my_str <> " " <> "is longer"
     IO.puts "Equal : #{"Egg" === "egg"}"
+    IO.puts "My ? #{String.contains?(my_str, "My")}"
+    IO.puts "Substring : #{String.slice(my_str, 3, 8)}"
+    IO.inspect String.split(long_str, " ")
+    IO.puts String.reverse(long_str)
+    IO.puts String.upcase(long_str)
+    IO.puts String.downcase(long_str)
+
+    4*10 |> IO.puts
   end
 
 end
